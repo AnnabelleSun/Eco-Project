@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    color: #000;
+    list-style: none;
+    outline: none;
+    box-sizing: border-box; 
+    font-size: 0.14px;
+    font-weight: normal;
+}
+html, body, .container{
+    width:100%;
+    font-size:625%;
+    height: 100%;   
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top:0;
+    left: 0;
+    height: 0.5rem;
+    background-color: #393A3F;
+}
+header a{
+    top:0;
+    position: absolute;
+    height: 0.5rem;
+    width:0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-left{
+    left:0;
+    border-right: 1px solid #2A2B2F;
+}
+.header-right{
+    right:0;
+}
+header a i{
+    color:#fff;
+}
+h1{
+    color:#fff;
+    padding-left: 0.7rem;
+    display: flex;
+    line-height: 0.5rem;
+}
+
+section{
+    padding-top:0.5rem;
+    background-color: #838C9B;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    width:100%;
+    height: 100%;
+}
+.main{
+    width:90%;
+    background-color: #fff;
+    border-radius: 0.05rem;
+    box-shadow: 0 0 5px #888;
+    padding:0.3rem 0.2rem;
+}
+.logo{
+    margin-bottom: 0.5rem;   
+}
+.logo img{
+    width:50%;
+    margin: 0 25%;
+}
+h2{
+    text-align: center;
+    font-size: 0.18rem;
+}
+.form p{
+    border-bottom: 1px solid #888;
+    height: 0.5rem;
+    justify-content: center;
+    padding:0.1rem 0;
+}
+.form img{
+    height: 100%;
+    vertical-align: middle;
+}
+.form span{
+    display: inline-block;
+    height: 80%;
+    width:0.3rem;
+    text-align: center;
+}
+.form input{
+    vertical-align: middle;
+    background-color: transparent;
+}
+input{
+    border:none;
+}
+.login{
+    margin-top: 0.5rem;
+    width:100%;
+    height: 0.5rem;
+    background-color: #2FBA77;
+    color:#fff;
+    border-radius: 0.05rem;
+    display: block;
+    line-height: 0.5rem;
+    text-align: center;
+}
